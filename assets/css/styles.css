@@ -7,15 +7,23 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(201, 100%, 44%);
-  --black-color: hsl(0, 0%, 0%);
-  --black-color-light: hsl(201, 100%, 44%);
-  --white-color: hsl(0, 0%, 95%);
-  --title-color: hsl(0, 0%, 0%);
-  --text-color: hsl(0, 0%, 35%);
-  --text-color-light: hsl(0, 0%, 64%);
-  --body-color: hsl(0, 0%, 87%);
-  --container-color: hsl(0, 0%, 83%);
+  --hue-color: 200; /* Adjust this value to match your primary hue if needed */
+  --first-color: #66FCF1; /* Primary color */
+  --title-color: #0B0C10; /* Titles, headings, and strong text */
+  --text-color: #C5C6C7; /* Main text color */
+  --body-color: #1F2833; /* Background color */
+  --container-color: #45A29E; /* For card backgrounds or similar */
+  --black-color: #0B0C10; /* Use for text or elements that need to be very dark */
+  --black-color-light: #1F2833; /* A lighter variant of the dark color for elements */
+  --white-color: #C5C6C7; /* Use for text or elements that need to be light */
+
+  /*
+  #0B0C10
+  #1F2833
+  #C5C6C7
+  #66FCF1
+  #45A29E 
+  */
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
